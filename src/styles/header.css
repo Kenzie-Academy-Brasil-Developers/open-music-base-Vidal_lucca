@@ -1,0 +1,31 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+   
+
+
+}
+
+.header>h1 {
+    font-size: 28px;
+    color: var(--color-grey-1);
+
+}
+
+
+.switchMoon{
+font-size: 20px;
+cursor: pointer;
+
+
+}
+
+.switchSun{
+display: none;
+font-size: 28px;
+
+}
