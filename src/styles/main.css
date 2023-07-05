@@ -27,15 +27,16 @@ main {
   border-radius: 4px;
   cursor: pointer;
   border: 1px solid white;
-  padding: 0px, 8px, 0px, 8px;
   background-color: var(--color-grey-8);
   color: var(--color-grey-2);
   font-size: 14px;
+  padding: 7px;
 
 }
-.buttonsContainer>button:hover{
-background-color: var(--color-grey-1);
-color: white;
+
+.buttonsContainer>button:hover {
+  background-color: var(--color-grey-1);
+  color: white;
 
 }
 
@@ -50,7 +51,6 @@ color: white;
 .cardContainer {
   border: 1px solid white;
   min-width: 200px;
-  /* height: 259px; */
   height: 259px;
   display: flex;
   flex-direction: column;
@@ -102,33 +102,33 @@ img {
 
 }
 
-#selectedPrice{
-/* margin-bottom: 10px; */
-font-size: 12px;
-/* margin-left: 535px; */
-font-weight: bold;
+#selectedPrice {
+  font-size: 12px;
+  font-weight: bold;
 
 
 }
-input{
- 
-/* margin-left: 400px; */
-width: 641px;
+
+input {
+  width: 641px;
 }
 
-.inputStyle{
+.inputStyle {
   display: flex;
   gap: 460px;
   margin-top: 30px;
 }
-.align{
+
+.align {
   color: var(--color-grey-1);
-font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
+  ;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 20px;
 }
-.find{
+
+.find {
   margin-top: 50px;
   font-weight: bold;
 }
-

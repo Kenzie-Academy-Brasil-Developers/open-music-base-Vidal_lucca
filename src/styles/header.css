@@ -1,11 +1,9 @@
-
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 18px;
-   
+
 
 
 }
@@ -17,15 +15,15 @@
 }
 
 
-.switchMoon{
-font-size: 20px;
-cursor: pointer;
+.switchMoon {
+    font-size: 20px;
+    cursor: pointer;
 
 
 }
 
-.switchSun{
-display: none;
-font-size: 28px;
+.switchSun {
+    display: none;
+    font-size: 28px;
 
 }

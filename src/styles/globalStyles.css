@@ -95,8 +95,14 @@
 .darkMode #selectedPrice {
   color: white;
 }
-.darkMode .align{
-color: white;
+
+.darkMode .align {
+  color: white;
+
+}
+
+.darkMode .find {
+  color: var(--color-grey-8);
 
 }
 
@@ -114,7 +120,7 @@ body {
   max-width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
-  
+
 }
 
 button {
